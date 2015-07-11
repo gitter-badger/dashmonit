@@ -13,7 +13,15 @@ var errorHandler = function() {
 };
 
 gulp.task('browser-sync', function() {
-  browserSync({ server: { baseDir: '.' }});
+  browserSync({
+    server: {
+      baseDir: '.',
+      routes: {
+        '/': 'index.html',
+        '/documentation': 'documentation.html'
+      }
+    }
+  });
 });
 
 gulp.task('build', function(cb) {

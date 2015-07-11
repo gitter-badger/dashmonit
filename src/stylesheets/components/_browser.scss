@@ -1,0 +1,7 @@
+.browser {
+  @include size(600px 400px);
+  @include border-top-radius(5px);
+  display: block;
+  margin: 0 auto;
+  background-color: $color-text;
+}

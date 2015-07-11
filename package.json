@@ -1,0 +1,36 @@
+{
+  "name": "dashmonit-gh-page",
+  "version": "0.0.1",
+  "description": "Dashmonit project page",
+  "author": "Lukasz Bieniek",
+  "main": "Gulpfile.js",
+  "homepage": "https://lukaszbieniek.github.io/dashmonit/",
+  "keywords": ["dashmonit"],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lukaszbieniek/dashmonit.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "gulp build"
+  },
+  "dependencies": {
+    "browser-sync": "~2.7.13",
+    "del": "^1.1.1",
+    "gulp": "^3.8.7",
+    "gulp-autoprefixer": "^2.0.0",
+    "gulp-watch": "^4.2.4",
+    "gulp-imagemin": "^0.6.2",
+    "gulp-jade": "1.0.1",
+    "gulp-load-plugins": "~0.10.0",
+    "gulp-notify": "^1.4.2",
+    "gulp-rename": "~1.2.0",
+    "gulp-sass": "^2.0.3",
+    "gulp-sequence": "^0.3.2",
+    "gulp-util": "~3.0.2",
+    "node-neat": "1.7.2",
+    "node-bourbon": "4.2.3",
+    "node-normalize-scss": "1.0.3",
+    "pretty-hrtime": "~0.2.1"
+  }
+}
